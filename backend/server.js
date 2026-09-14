@@ -13,7 +13,9 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 8000;
 
-app.use(cors());
+app.use(cors({
+    origin: 'https://ai-expense-tracker-life-6fb1.vercel.app'
+}));
 app.use(express.json());
 
 app.get('/', (req, res) => {
