@@ -14,7 +14,7 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 app.use(cors({
-    origin: 'https://ai-expense-tracker-life-6fb1.vercel.app'
+    origin: process.env.FRONTEND_URL || 'https://ai-expense-tracker-theta-five.vercel.app'
 }));
 app.use(express.json());
 
