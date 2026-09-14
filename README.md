@@ -264,20 +264,13 @@ Add screenshots of the following important screens:
 
 Example:
 
-```markdown
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### AI Insights
-![AI Insights](screenshots/ai-insights.png)
+<img width="1889" height="965" alt="dashboard" src="https://github.com/user-attachments/assets/baf3245e-c00d-4850-8d99-81a00af6fa48" />
 
 ### Budget Management
-![Budgets](screenshots/budgets.png)
-```
-
----
+<img width="1905" height="923" alt="budgets" src="https://github.com/user-attachments/assets/2e2e63f2-a4f5-444f-8293-89b5c8f1c037" />
 
 ## 👩‍💻 Developer
 
